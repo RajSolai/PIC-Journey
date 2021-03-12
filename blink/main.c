@@ -13,9 +13,9 @@ void main(){
 	PORTB = 0x00;
 	while(1){
 		RB2 = 1;
-		__delay_ms(300);
+		__delay_ms(400);
 		RB2 = 0;
-		__delay_ms(300);
+		__delay_ms(400);
 	}
 	return;
 }
